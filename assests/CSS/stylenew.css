@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #E9DAC1; */
+}
+.box{
+    display: inline-block;
+    margin: 130px;
+ }
+
+.section1{
+    border: 2px solid black;
+    display: inline-block;
+    
+}
+
+.container{
+   
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+}
+.container>img{
+    width: 100%;
+     height: 220px;
+     float:right;
+}
+/* ----HOVER-1----- */
+.text{
+    color: rgb(245, 240, 240);
+    background: rgb(3, 3, 3);
+    position:absolute;
+    top: 0%;
+    left: -100%;
+    right: 0%;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0.8;
+    transition: 2s;
+    
+}
+.effect1:hover .text{
+    left:0%;
+}
+/* --------HOVER-2------ */
+
+.text1{
+    color: rgb(245, 240, 240);
+    background: rgb(3, 3, 3);
+    position:absolute;
+    top: 0%;
+    left: 100%;
+    right: 0%;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0.8;
+    transition: 2s;
+    
+}
+.effect2:hover .text1{
+    left:0%;
+}
+
+/* ----------HOVER-3-------- */
+.text2{
+    color: rgb(245, 240, 240);
+    background: rgb(3, 3, 3);
+    position:absolute;
+    top: 100%;
+    left: 0%;
+    right: 0%;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0.8;
+    transition: 2s;
+    
+}
+.effect3:hover .text2{
+    top:0%;
+}
+
+/*---------------HOVER-4------------*/
+.text3{
+    color: rgb(245, 240, 240);
+    background: rgb(3, 3, 3);
+    position:absolute;
+    top: -100%;
+    left: 0%;
+    right: 0%;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0.8;
+    transition: 2s;
+    
+}
+.effect4:hover .text3{
+    top:0%;
+}
+
+/* -------BOTTOM DIV------- */
+
+.container1{
+    
+    width: 250px;
+    height: 200px;
+    background-color: #BF9270;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
